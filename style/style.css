@@ -4,12 +4,56 @@
 }
 
 .cabecalho{
-    background-color: rgb(47, 59, 63);
+    background-color: rgb(82, 85, 85);
     color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding:24px 0;
+}
+
+.cabecalho{
+    display:inline-block ;
+    margin:0 16px;
+    font-size: 24px;
 }
 
 .escola-imagem{
     width: 30%;
+}
+
+.escola{
+    background-image: linear-gradient(#424e61,#16cff8);
+    color: white;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width:35%;
+}
+
+.escola-title{
+    padding: 24px 0;
+}
+
+.estudante{
+    padding: 24px 0;
+}
+
+.estudantes-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudantes-title{
+    text-decoration: center;
+    padding: 24px 0;
 }
