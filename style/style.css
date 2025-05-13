@@ -5,16 +5,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
-body{
-font-family: "Roboto", sans-serif ;
-}
-
 header a {
     color:aliceblue;
 text-decoration: nome;
 }
 
-header a:houve 
+header a:houve{
+color:bisque; 
+}
+
+body{
+    font-family: "Roboto" , sans-serif ;
+}
+
 .cabecalho{
     background-color: rgb(82, 85, 85);
     color: white;
